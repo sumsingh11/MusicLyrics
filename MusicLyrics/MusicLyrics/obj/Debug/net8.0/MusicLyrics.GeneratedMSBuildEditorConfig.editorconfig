@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MusicLyrics
 build_property.RootNamespace = MusicLyrics
-build_property.ProjectDir = /Users/sumit/Downloads/MusicLyrics/MusicLyrics/
+build_property.ProjectDir = /Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/sumit/Downloads/MusicLyrics/MusicLyrics
+build_property.MSBuildProjectDirectory = /Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/sumit/Downloads/MusicLyrics/MusicLyrics/Areas/Identity/Pages/_ViewStart.cshtml]
+[/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sumit/Downloads/MusicLyrics/MusicLyrics/Views/Home/Index.cshtml]
+[/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sumit/Downloads/MusicLyrics/MusicLyrics/Views/Home/Privacy.cshtml]
+[/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sumit/Downloads/MusicLyrics/MusicLyrics/Views/Shared/Error.cshtml]
+[/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sumit/Downloads/MusicLyrics/MusicLyrics/Views/Shared/_LoginPartial.cshtml]
+[/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sumit/Downloads/MusicLyrics/MusicLyrics/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sumit/Downloads/MusicLyrics/MusicLyrics/Views/_ViewImports.cshtml]
+[/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sumit/Downloads/MusicLyrics/MusicLyrics/Views/_ViewStart.cshtml]
+[/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/sumit/Downloads/MusicLyrics/MusicLyrics/Views/Shared/_Layout.cshtml]
+[/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fknynugvgx

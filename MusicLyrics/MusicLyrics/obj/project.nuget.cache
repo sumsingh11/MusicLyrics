@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O1HLzir3dpg=",
+  "dgSpecHash": "S2HCEUpvJV0=",
   "success": true,
-  "projectFilePath": "/Users/sumit/Downloads/MusicLyrics/MusicLyrics/MusicLyrics.csproj",
+  "projectFilePath": "/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/MusicLyrics.csproj",
   "expectedPackageFiles": [
     "/Users/sumit/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/sumit/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

@@ -16,7 +16,13 @@ namespace MusicLyrics.Controllers
             _context = context;
         }
 
-        // GET: api/Album
+        /// <summary>
+        /// Retrieves a list of all albums.
+        /// </summary>
+        /// <returns>A list of album DTOs.</returns>
+        /// <example>
+        /// GET: api/Album
+        /// </example>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<AlbumDTO>>> GetAlbums()
         {
@@ -32,7 +38,14 @@ namespace MusicLyrics.Controllers
                 .ToListAsync();
         }
 
-        // GET: api/Album/5
+        /// <summary>
+        /// Retrieves an album by its ID.
+        /// </summary>
+        /// <param name="id">The album ID.</param>
+        /// <returns>The album DTO if found; otherwise, NotFound.</returns>
+        /// <example>
+        /// GET: api/Album/5
+        /// </example>
         [HttpGet("{id}")]
         public async Task<ActionResult<AlbumDTO>> GetAlbum(int id)
         {
@@ -53,7 +66,15 @@ namespace MusicLyrics.Controllers
             };
         }
 
-        // POST: api/Album
+        /// <summary>
+        /// Creates a new album.
+        /// </summary>
+        /// <param name="albumDto">The album data transfer object.</param>
+        /// <returns>The created album DTO.</returns>
+        /// <example>
+        /// POST: api/Album
+        /// Body: { "Title": "New Album", "ReleaseDate": "2025-01-01", "CoverImage": "url.jpg", "ArtistId": 1 }
+        /// </example>
         [HttpPost]
         public async Task<ActionResult<AlbumDTO>> PostAlbum(AlbumDTO albumDto)
         {
@@ -71,7 +92,16 @@ namespace MusicLyrics.Controllers
             return CreatedAtAction(nameof(GetAlbum), new { id = album.AlbumId }, albumDto);
         }
 
-        // PUT: api/Album/5
+        /// <summary>
+        /// Updates an existing album.
+        /// </summary>
+        /// <param name="id">The album ID.</param>
+        /// <param name="albumDto">The updated album DTO.</param>
+        /// <returns>No content if successful; otherwise, BadRequest or NotFound.</returns>
+        /// <example>
+        /// PUT: api/Album/5
+        /// Body: { "AlbumId": 5, "Title": "Updated Album", "ReleaseDate": "2025-02-01", "CoverImage": "new_url.jpg", "ArtistId": 1 }
+        /// </example>
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAlbum(int id, AlbumDTO albumDto)
         {
@@ -97,7 +127,14 @@ namespace MusicLyrics.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Album/5
+        /// <summary>
+        /// Deletes an album by its ID.
+        /// </summary>
+        /// <param name="id">The album ID.</param>
+        /// <returns>No content if successful; otherwise, NotFound.</returns>
+        /// <example>
+        /// DELETE: api/Album/5
+        /// </example>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAlbum(int id)
         {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sumit/Downloads/MusicLyrics/MusicLyrics/MusicLyrics.csproj": {}
+    "/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/MusicLyrics.csproj": {}
   },
   "projects": {
-    "/Users/sumit/Downloads/MusicLyrics/MusicLyrics/MusicLyrics.csproj": {
+    "/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/MusicLyrics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sumit/Downloads/MusicLyrics/MusicLyrics/MusicLyrics.csproj",
+        "projectUniqueName": "/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/MusicLyrics.csproj",
         "projectName": "MusicLyrics",
-        "projectPath": "/Users/sumit/Downloads/MusicLyrics/MusicLyrics/MusicLyrics.csproj",
+        "projectPath": "/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/MusicLyrics.csproj",
         "packagesPath": "/Users/sumit/.nuget/packages/",
-        "outputPath": "/Users/sumit/Downloads/MusicLyrics/MusicLyrics/obj/",
+        "outputPath": "/Users/sumit/Documents/Backend Semester 2/MusicLyrics/MusicLyrics/MusicLyrics/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/sumit/.nuget/NuGet/NuGet.Config"

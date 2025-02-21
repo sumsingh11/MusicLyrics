@@ -16,7 +16,13 @@ namespace MusicLyrics.Controllers
             _context = context;
         }
 
-        // GET: api/Artists
+        /// <summary>
+        /// Retrieves a list of all artists.
+        /// </summary>
+        /// <returns>A list of artist DTOs.</returns>
+        /// <example>
+        /// GET: api/Artists
+        /// </example>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<ArtistDTO>>> GetArtists()
         {
@@ -33,7 +39,14 @@ namespace MusicLyrics.Controllers
             return Ok(artists);
         }
 
-        // GET: api/Artists/5
+        /// <summary>
+        /// Retrieves an artist by its ID.
+        /// </summary>
+        /// <param name="id">The artist ID.</param>
+        /// <returns>The artist DTO if found; otherwise, NotFound.</returns>
+        /// <example>
+        /// GET: api/Artists/5
+        /// </example>
         [HttpGet("{id}")]
         public async Task<ActionResult<ArtistDTO>> GetArtist(int id)
         {
@@ -56,7 +69,15 @@ namespace MusicLyrics.Controllers
             return Ok(artist);
         }
 
-        // POST: api/Artists
+        /// <summary>
+        /// Creates a new artist.
+        /// </summary>
+        /// <param name="artistDTO">The artist data transfer object.</param>
+        /// <returns>The created artist DTO.</returns>
+        /// <example>
+        /// POST: api/Artists
+        /// Body: { "Name": "New Artist", "Bio": "Artist Bio", "CreatedAt": "2025-01-01T00:00:00Z" }
+        /// </example>
         [HttpPost]
         public async Task<ActionResult<ArtistDTO>> PostArtist(ArtistDTO artistDTO)
         {
@@ -75,7 +96,16 @@ namespace MusicLyrics.Controllers
             return CreatedAtAction(nameof(GetArtist), new { id = artist.ArtistId }, artistDTO);
         }
 
-        // PUT: api/Artists/5
+        /// <summary>
+        /// Updates an existing artist.
+        /// </summary>
+        /// <param name="id">The artist ID.</param>
+        /// <param name="artistDTO">The updated artist DTO.</param>
+        /// <returns>No content if successful; otherwise, BadRequest or NotFound.</returns>
+        /// <example>
+        /// PUT: api/Artists/5
+        /// Body: { "ArtistId": 5, "Name": "Updated Artist", "Bio": "Updated Bio", "CreatedAt": "2025-02-01T00:00:00Z" }
+        /// </example>
         [HttpPut("{id}")]
         public async Task<IActionResult> PutArtist(int id, ArtistDTO artistDTO)
         {
@@ -102,7 +132,14 @@ namespace MusicLyrics.Controllers
             return NoContent();
         }
 
-        // DELETE: api/Artists/5
+        /// <summary>
+        /// Deletes an artist by its ID.
+        /// </summary>
+        /// <param name="id">The artist ID.</param>
+        /// <returns>No content if successful; otherwise, NotFound.</returns>
+        /// <example>
+        /// DELETE: api/Artists/5
+        /// </example>
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteArtist(int id)
         {
