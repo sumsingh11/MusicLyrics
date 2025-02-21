@@ -16,11 +16,12 @@ The relational database structure for this CMS follows a well-defined schema rep
 
 ### Entity Relationship Summary
 
-| Entities →        Relationships →          Description |
-|----------------|-----------------|----------------------------------------|
-| Artists → Lyrics | One-to-Many (1 → ∞) | A single artist can create multiple songs. |
-| Songs → Albums | Many-to-One (∞ → 1) | Multiple songs can belong to a single album. |
-| Artists → Albums | One-to-Many (1 → ∞) | An artist can release multiple albums. |
+| Entities →           Relationships →                Description                      |
+
+
+| Artists → Lyrics | One-to-Many (1 → ∞) | A single artist can create multiple songs.  |
+| Songs → Albums   | Many-to-One (∞ → 1) | Multiple songs can belong to a single album.|
+| Artists → Albums | One-to-Many (1 → ∞) | An artist can release multiple albums.      |
 
 ## Wireframes
 
